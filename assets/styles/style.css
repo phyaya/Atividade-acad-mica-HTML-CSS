@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 { color: white;
+    background: linear-gradient(to bottom, black,gray);
+    text-align: center;
+    padding: 25px; ;
+    font-size: 50px;
+    margin: 0%;
+    border-radius: 0%;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 200px;
+}
+
+.card img { 
+    width: 100%;
+    height: auto;
+    border-radius: 2%;
+    border-image-width: 50%;
+    
+}
+
+
