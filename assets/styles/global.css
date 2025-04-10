@@ -1,9 +1,4 @@
-body {
-    font-family: sans-serif;
-    margin: 0;
-    height: 0;
-    background-image: url('../images/VH_01_1080pjpg.jpg');
-}
+
 
 
 
@@ -66,7 +61,7 @@ h1 { color: white;
     margin: 0;
     font-size: 20px;
     color: #444;
-    text-align: justify;
+    text-align:justify;
   }
 
   .card-button button {
@@ -85,3 +80,6 @@ h1 { color: white;
     box-sizing: border-box;
     box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
   }
+
+  .card-button button:hover {
+    transform: scale(1.06);
